@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Rick and Mort - Kadu</title>
+    <link rel="icon" href="./imagens/rick-icon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://rickandmortyapi.com/"><img id="icone-header" src="./imagens/rick-icon.png" alt="Ícone" /></a>
+        
+      </nav>
+      <div class="logo-rick">
+        <img src="./imagens/logo-rick.png" alt="logo-rick-and-morty"/>
+      </div>
+      <section>
+        <div id="pagination" class="pagination">
+          <input type="text" id="searchCharacter" class="campo-pesquisa" placeholder="Pesquisar personagem">
+          <br>
+          <br>
+          <button onclick="PaginationPrev()" id="btnPrevios" class="btn-rickPrev">Voltar</button>
+          <span id="currentPage" class="contador-Pag">1</span> <span class="contador-Pag">de</span> <span id="totalPages" class="contador-Pag">1</span>
+          <button onclick="PaginationNext()" id="btnNext" class="btn-rickNext">Próximo</button>
+          
+        </div>
+      </section>
+    </header>
+    <main>
+      
+      
+      <section>
+        <div class="chars-container">
+          
+      </section>
+
+    </main>
+    <footer class="footer-rick">
+      <img src="./imagens/rick-and-morty-portal-shoes-white-clothing-zavvi-23 (1).png" alt="">
+      <p>Desenvolvido por: Carlos Eduardo Sabino de Lima</p>
+    </footer>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./api.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  
+    
+}
+
+header {
+  /* background-color: #333; */
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.chars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contador-Pag {
+  color: #000000;
+}
+
+
+#icone-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  padding: 10px; 
+}
+
+.logo-rick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  
+ 
+}
+
+.card {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.58);
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px rgba(91, 228, 12, 0.886);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.card:hover {
+  border: 1px solid rgb(73, 230, 21);
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card img {
+  
+  max-width: 90%;  
+  margin-bottom: 1rem
+  
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+
+.statusColor {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  box-shadow: #000000 1px 1px 5px;
+  margin: none;
+}
+.dead {
+  background-color: red;
+}
+.alive {
+  background-color: rgb(7, 247, 7);
+}
+.unknown {
+  background-color: lightgray;
+}
+
+.btn-rickNext,.btn-rickPrev  {
+  background:#00ffff;
+background:    linear-gradient(#00ffff, #00ff00);
+border:        1px solid #556699;
+border-radius: 1000px;
+padding:       10px 35px;
+color:         #fafafa;
+display:       inline-block;
+font:          normal bold 16px/1 "Komika", cursive;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+transition: all 0.2s ease;
+cursor: pointer;
+}
+
+
+button:hover {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+
+button:active {
+  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+.pagination{
+  text-align: center;
+}
+
+.campo-pesquisa {
+    width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #26eade;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 21px;
+    box-shadow: 0px 0px 5px rgba(4,4,4,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.0);
+
+    
+}
+
+.footer-rick{
+  background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer img {
+  width: 350px;
+  
+}
+
+
